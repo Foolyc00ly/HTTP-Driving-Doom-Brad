@@ -1,6 +1,8 @@
 import{eventsFormInsert}from './Event-FormInsert';
-import{eventsTableDescription}from './Event-TableDescription';
+import{eventsTableDescription,evensTableHtmlCreate}from './Event-TableDescription';
+
 export{
     eventsFormInsert,
     eventsTableDescription,
+    evensTableHtmlCreate
 }

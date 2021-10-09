@@ -1,2 +1,3 @@
 import{events as eventsTableDescription}from './event-TableDescription.component';
-export{eventsTableDescription}
+import{TableHtmlCreate as evensTableHtmlCreate}from './event-TableHtmlCreate.component';
+export{eventsTableDescription,evensTableHtmlCreate}

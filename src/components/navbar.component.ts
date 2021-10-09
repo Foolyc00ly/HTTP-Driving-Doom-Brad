@@ -4,7 +4,7 @@ const createNavbarHTML=()=>{
     const HTMLNavbar=`
     <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">JS Todo List</a>
+        <a class="navbar-brand" href="#">Lista de Actividades</a>
         ${ElementNavbar.btnNavbar}
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             ${ElementNavbar.navNavbar}

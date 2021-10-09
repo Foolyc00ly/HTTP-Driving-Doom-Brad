@@ -3,15 +3,15 @@ import{ElementFormInsert}from './views';
 import{eventsFormInsert}from '../events';
 const createFormInsertHTML=()=>{
     const HTMLFormInsert=`
-        <form>
-            <div class="row">
+        <form class="form-container">
+            <div class="row form-cart">
                 <div class="col-sm-3 d-sm-flex align-items-center">
                     <label class="m-sm-0">Title</label>
                     <input
                         type="text"
                         id="title"
                         class="form-control ml-sm-2"
-                        placeholder="Learn JS"
+                        placeholder="Actividad"
                     >
                 </div>
                 <div class="px-sm-2 col-sm-7 d-sm-flex align-items-center mt-2 mt-sm-0">
@@ -20,7 +20,7 @@ const createFormInsertHTML=()=>{
                         type="text"
                         id="description"
                         class="form-control ml-sm-2"
-                        placeholder="Watch JS Tutorials"
+                        placeholder="Ingrese Descripcion"
                     >
                 </div>
                 ${ElementFormInsert.DivBTNFormInsert}

@@ -1,4 +1,5 @@
-import{error,TableDescription}from '../spec/module-variable.component';
+import{error,TableDescription,activivityList}from '../spec/module-variable.component';
+import{evensTableHtmlCreate, eventsTableDescription}from '../events';
 const createTableDescription=()=>{
     const HTMLTableDescription=`
         <div class="mt-5">
@@ -15,8 +16,8 @@ const createTableDescription=()=>{
                         <th scope="col"></th>
                     </tr>
                 </thead>
-                <tbody>
-                    <!-- Content generated with JS -->
+                <tbody id="TableActivityList" class="table-container">
+
                 </tbody>
             </table>
         </div>
@@ -28,4 +29,6 @@ const createTableDescription=()=>{
 
 export const init=()=>{
     createTableDescription();
+    activivityList.activities.forEach(a=>evensTableHtmlCreate(a));
+    eventsTableDescription();
 }
